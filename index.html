@@ -25,7 +25,21 @@
 <form id="jobForm"><input type="hidden" id="docId"><div class="formgrid">
 <label class="wide">Job / update title *<input id="title" required maxlength="150"></label><label>Department / organisation *<input id="department" required maxlength="120"></label>
 <label>Category<select id="category"><option>Assam Government</option><option>Central Government</option><option>Admit Card</option><option>Results</option><option>Private Jobs</option></select></label>
-<label>Qualification<input id="qualification" maxlength="120" placeholder="Class 10 / 12 / Graduate"></label><label>Last date<input id="lastDate" type="date"></label><label>Vacancies<input id="vacancies" maxlength="80"></label>
+<label>Qualification<input id="qualification" maxlength="120" placeholder="Class 10 / 12 / Graduate"></label>
+
+<label>Age limit<input id="ageLimit" placeholder="18–40 years"></label>
+
+<label>Salary / Pay scale<input id="salary" placeholder="₹14,000–₹60,500"></label>
+
+<label>Application start date<input id="startDate" type="date"></label>
+
+<label>Last date<input id="lastDate" type="date"></label>
+
+<label>Application fee<input id="applicationFee" placeholder="₹200 / No fee"></label>
+
+<label>Vacancies<input id="vacancies" maxlength="80"></label>
+
+<label>Selection process<input id="selectionProcess" placeholder="Written test, interview, etc."></label>
 <label>Publication status<select id="postStatus"><option value="draft">Draft (private)</option><option value="published">Published (public)</option></select></label>
 <label class="wide">Short description<textarea id="description" rows="3" maxlength="1500"></textarea></label><label class="wide">Official notification URL<input id="notificationUrl" type="url" placeholder="https://…"></label><label class="wide">Official apply URL<input id="applyUrl" type="url" placeholder="https://…"></label></div>
 <div class="rowbtn"><button class="btn" id="save" type="submit">Save update</button><button class="btn light" id="clear" type="button">Clear form</button></div></form><hr class="divider"><h3>Your job posts</h3><div id="manage"></div><div class="rowbtn"><button class="btn red" id="logout">Logout</button></div></div><div id="adminMsg" class="msg hidden"></div></div></div>
